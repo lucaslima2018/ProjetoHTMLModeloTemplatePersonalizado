@@ -1,3 +1,3 @@
-# Projeto HTML Modelo Template Personalizado
+# Projeto HTML Modelo Template Personalizado.
 
 # Template Personalizado Para Edição.
