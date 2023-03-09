@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+
+<!-- Usa o arquivo style.css separado ao inves de internal pois assim é só linkar com qualquer pagina que tu irá conseguir usá-lo sen tera de repetir o codigo em cada pagina para manter menu, cabeçalho entre outros -->
+
+<head>
+	<title></title>
+	<link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<!-- Linkando com o arquivo style.css -->
+	<link href="css/style.css" rel="stylesheet" media="screen">
+	<!--<link href="Bootstrap/js/bootstrap.min.js" rel="stylesheet" media="screen">-->
+	<meta charset="utf-8">
+</head>
+<style>
+	body{
+		background-image: url(img/banestes.jpg);
+		background-repeat: no-repeat;
+        background-position:  meddle;
+		background-size: 160%;
+	}
+</style>
+<body>
+
+	<!-- Div Geral que pega toda a página -->
+	<div class="container-fluid border">
+		<!-- Div do Cabeçalho -->
+		<div id="topo" class="col-md-12">
+			<!-- Div do Logo -->			
+			<div id="logo" class="col-md-6" style="color:SteelBlue"><img src="img/banestes-logo-4_2.png"> Bem Vindo</div> 
+			
+			<!-- Div Menu Superior -->
+			<div id="sobrenos" class="col-md-6" align="right"><h1><a style="color:SteelBlue" href="sobre.html">Sobre a Aplicação |</a> <a style="color:SteelBlue" href="suporte.html">Suporte</a></h1></div>
+		</div>
+		<br><br>
+		
+		<!-- Div do Segundo Esquerda -->
+		<div id="menu-top" class="col-md-12" align="right">
+			<h1><img src="img/banestes-logo-5_2.png" align="left"><a style="color:SteelBlue" href="index.html">Página Inicial |</a> <a style="color:SteelBlue" href="recurso1.html">Recurso 1 |</a> <a style="color:SteelBlue" href="recurso2.html">Recurso 2 |</a> <a style="color:SteelBlue" href="recurso3.html"> Recurso 3 |</a> <a style="color:SteelBlue" href="recurso4.html">Recurso 4</a></h1>
+		</div>
+
+		<!-- Div do Corpo da Página -->
+		<div class="col-md-15">
+			<!-- Div do Menu -->
+			<div id="menu-left" class="col-md-3" >
+				<h1 style="color: SteelBlue">
+					
+					<div id="sub-menu"><a style="color:SteelBlue" href="recursoA.html">Recurso A</a></div>
+					<div id="sub-menu"><a style="color:SteelBlue" href="recursoB.html">Recurso B</a></div>
+					<div id="sub-menu"><a style="color:SteelBlue" href="recursoC.html">Recurso C</a></div>
+					<div id="sub-menu"><a style="color:SteelBlue" href="recursoD.html">Recurso D</a></div>
+					<div id="sub-menu"><a style="color:SteelBlue" href="documentos/Sobre o Banestes.pdf" target="_blank">Recurso E</a></div>
+				</h1>
+			</div>
+		
+			<!-- Div do Corpo (Conteúdo) -->
+			<div id="corpo" class="col-md-9" style="color: SteelBlue">
+				<h1>
+					RECURSO A
+					<br><br>
+					<div><img src="img/avatarBanestes_2.jpg"> Sobre o Banestes</div>
+					<div align="center"><a href="documentos/Sobre o Banestes.pdf" target="_blank"><img src="img/dls2.png"/></a></div>
+					<br><br><br>
+					<div align="center"><a href="index.html"><img src="img/VOLTAR.png"/></a></div>			
+				</h1>
+			</div>
+		</div>
+
+		<!-- Div do Rodapé -->
+		<div id="footer" class="col-md-12" style="color: SteelBlue">
+			<h1>
+				<div class="col-md-6">Footer</div>
+				<div class="col-md-6" align="right">Copyright&#169 por Lucas Lima</div>
+			</h1>
+		</div>
+	</div>
+</body>
+</html>
